@@ -14,8 +14,8 @@ class Matrix:
         return self.list_of_rows[index - 1]
 
     def column(self, index):
-        self.column = []
+        column = []
         for row in self.list_of_rows:
-            self.column.append(row[index - 1])
+            column.append(row[index - 1])
 
-        return self.column
+        return column
